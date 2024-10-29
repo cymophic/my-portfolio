@@ -1,0 +1,15 @@
+# Secret
+.env
+
+# Python
+__pycache__/
+*.sqlite3
+env/
+venv/
+
+# Django
+media/
+staticfiles/
+
+# VS Code
+.vscode/
