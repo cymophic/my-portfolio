@@ -1,6 +1,7 @@
 # Secret
 .env
 .my-notes.md
+.commands-used.md
 
 # Python
 __pycache__/
