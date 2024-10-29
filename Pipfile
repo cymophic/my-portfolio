@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 typing-extensions = "*"
 django = "*"
+djangorestframework = "*"
 
 [dev-packages]
 
