@@ -5,8 +5,8 @@ name = "pypi"
 
 [packages]
 typing-extensions = "*"
-django = "*"
 djangorestframework = "*"
+django = "*"
 
 [dev-packages]
 
