@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-typing-extensions = "*"
-djangorestframework = "*"
 django = "*"
+djangorestframework = "*"
+typing-extensions = "*"
 
 [dev-packages]
 
