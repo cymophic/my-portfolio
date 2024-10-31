@@ -1,11 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
 :root {
-    
+    --default-font: "Quicksand", Arial, sans-serif;
+    --dark-bg-color: #222222;
+    --dark-color: #e4e4e4;
+    --page-width: 680px;
 }
 
 body {
+    background-color: var(--dark-bg-color);
+    color: var(--dark-color);
+    font-family: var(--default-font);
+
+    display: flex;
+    justify-content: center;
+
     margin: 0;
     padding: 0;
-    background-color: #222222;
-    color: #E4E4E4;
-    font-family: 'Quicksand', Arial, sans-serif;
+}
+
+.page {
+    background-color: darkred;
+    border-left: 2px solid darkred;
+    border-right: 2px solid darkred;
+
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+
+    height: 78.5vh;
+    width: 680px;
+
+    margin: 0;
+    padding: 100px;
+}
+
+nav.top {
+}
+
+nav.top .left {
+}
+
+nav.top .right {
 }
